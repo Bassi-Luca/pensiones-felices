@@ -1,0 +1,13 @@
+@media (max-width:768px) {
+    .banner_mx {
+        height: 70px;
+    }
+}
+
+@media (min-width:768px) {
+    .info {
+        display: inline-block;
+        justify-content: center;
+        color: aquamarine;
+    }
+}
