@@ -1,13 +1,22 @@
-@media (max-width:768px) {
-    .banner_mx {
-        height: 70px;
+.menu:hover {
+    color: #ffc107;
+}
+
+@media (min-width: 576px) {
+    .menu {
+        color: whitesmoke;
+    }
+
+    .mm {
+        filter: brightness(0) invert(1);
     }
 }
 
-@media (min-width:768px) {
-    .info {
-        display: inline-block;
-        justify-content: center;
-        color: aquamarine;
+@media (min-width:768px) and (max-width:991px) {
+    .menu {
+        font-size: smaller;
     }
 }
+
+
+
